@@ -1,0 +1,18 @@
+[ 2018-03-21T12:26:01+08:00 ] ::1 /myCode/poneBack3/data/upload/hp/caocao.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+ERR: 无法加载模块:Data
+
+[ 2018-03-21T12:26:01+08:00 ] ::1 /myCode/poneBack3/data/upload/hp/sunquan.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+ERR: 无法加载模块:Data
+
+[ 2018-03-21T12:26:01+08:00 ] ::1 /myCode/poneBack3/data/upload/hp/liubei.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+ERR: 无法加载模块:Data
+

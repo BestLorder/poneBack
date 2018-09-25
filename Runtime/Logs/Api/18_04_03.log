@@ -1,0 +1,3017 @@
+[ 2018-04-03T11:08:55+08:00 ] ::1 /myCode/poneback/Api/homePage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.1046s ]
+SQL: SELECT * FROM `hp_lbt` LIMIT 2   [ RunTime:0.0140s ]
+
+[ 2018-04-03T11:09:17+08:00 ] ::1 /myCode/poneback/Api/test/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015912s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.279657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.279833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005939s ]
+
+[ 2018-04-03T11:13:42+08:00 ] ::1 /myCode/poneback/Api/test/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2018-04-03T11:14:07+08:00 ] ::1 /myCode/poneback/Api/test/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2018-04-03T11:17:24+08:00 ] ::1 /myCode/poneback/Api/test/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2018-04-03T11:17:36+08:00 ] ::1 /myCode/poneback/Api/test/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2018-04-03T11:23:33+08:00 ] ::1 /myCode/poneback/Api/test/arr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2018-04-03T16:05:24+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.1019s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.1820s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T16:05:24+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0097s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.1141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2018-04-03T16:05:38+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005348s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0180s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2018-04-03T16:05:38+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003172s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0162s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T16:05:45+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0908s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001649s ]
+
+[ 2018-04-03T16:05:45+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0793s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T16:05:49+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0122s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2018-04-03T16:05:49+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0101s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-04-03T16:06:21+08:00 ] ::1 /myCode/poneBack/api/homePage/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE `name` LIKE '%小红%' LIMIT 1   [ RunTime:0.1205s ]
+SQL: SELECT `name` FROM `person` WHERE `name` LIKE '%小红%'  [ RunTime:0.0009s ]
+
+[ 2018-04-03T16:07:31+08:00 ] ::1 /myCode/poneBack/api/homePage/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE `name` LIKE '%曹操%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `person` WHERE `name` LIKE '%曹操%'  [ RunTime:0.0002s ]
+
+[ 2018-04-03T16:09:42+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0893s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T16:09:42+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002191s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0878s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2018-04-03T16:11:16+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0166s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T16:11:16+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0199s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2018-04-03T16:11:34+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0598s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T16:11:34+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006424s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0536s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2018-04-03T16:11:35+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0190s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T16:11:35+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0197s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2018-04-03T16:11:58+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0169s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003877s ]
+
+[ 2018-04-03T16:11:58+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0113s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0007s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T16:12:20+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0418s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2018-04-03T16:12:20+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0423s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T16:13:10+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0699s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003126s ]
+
+[ 2018-04-03T16:13:10+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0553s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0023s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T16:17:30+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0210s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T16:17:30+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0159s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003052s ]
+
+[ 2018-04-03T16:29:48+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0481s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T16:29:48+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004088s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0480s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002450s ]
+
+[ 2018-04-03T16:37:15+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.1534s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T16:37:15+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005577s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.1512s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2018-04-03T16:37:41+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0167s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2018-04-03T16:37:41+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002575s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0182s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T16:37:50+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0129s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003507s ]
+
+[ 2018-04-03T16:37:50+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0192s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T16:42:06+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004699s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0544s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T16:42:06+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002717s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0562s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2018-04-03T16:42:45+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0162s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2018-04-03T16:42:45+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0162s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0024s ]
+
+[ 2018-04-03T16:45:45+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0261s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2018-04-03T16:45:45+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0265s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-04-03T16:45:47+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0521s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2018-04-03T16:45:47+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0464s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T16:46:44+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002772s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0195s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T16:46:44+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0193s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2018-04-03T16:48:15+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0179s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2018-04-03T16:48:15+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0353s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T16:48:30+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:1.5533s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0009s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-04-03T16:48:31+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004633s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:2.5511s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002134s ]
+
+[ 2018-04-03T16:49:48+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0101s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003068s ]
+
+[ 2018-04-03T16:51:02+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0159s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2018-04-03T16:52:06+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0102s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2018-04-03T16:52:29+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0661s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003050s ]
+
+[ 2018-04-03T16:52:29+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003207s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0678s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0007s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-04-03T16:54:50+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0579s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003944s ]
+
+[ 2018-04-03T16:54:50+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0597s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0008s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-04-03T16:55:18+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0176s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T16:55:18+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0192s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002418s ]
+
+[ 2018-04-03T16:55:27+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003472s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.6069s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-04-03T16:55:27+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.6145s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002919s ]
+
+[ 2018-04-03T16:59:55+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0123s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2018-04-03T17:00:59+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0391s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2018-04-03T17:00:59+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+ERR: 无法加载控制器:PersonType
+
+[ 2018-04-03T17:01:01+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+ERR: 无法加载控制器:PersonType
+
+[ 2018-04-03T17:01:01+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0180s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003005s ]
+
+[ 2018-04-03T17:03:36+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0478s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T17:03:36+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003752s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0409s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003675s ]
+
+[ 2018-04-03T17:03:38+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0111s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2018-04-03T17:18:22+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004184s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.8357s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T17:18:22+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003308s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0279s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004479s ]
+
+[ 2018-04-03T17:18:22+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0343s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0018s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T17:18:27+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0164s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003405s ]
+
+[ 2018-04-03T17:18:27+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0174s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0015s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T17:18:50+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0540s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T17:18:50+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0695s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2018-04-03T17:18:54+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.7818s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002409s ]
+
+[ 2018-04-03T17:18:54+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.7857s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0007s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2018-04-03T17:19:34+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005792s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.5176s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T17:19:34+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.5236s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2018-04-03T17:19:39+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.6498s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002709s ]
+
+[ 2018-04-03T17:19:39+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.6516s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0009s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-04-03T17:20:18+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:1.2230s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T17:20:18+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:1.2153s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001962s ]
+
+[ 2018-04-03T17:20:25+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003420s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.1019s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T17:20:25+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003422s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.1017s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2018-04-03T17:21:37+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.2643s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002160s ]
+
+[ 2018-04-03T17:21:37+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.2705s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0007s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0271s ]
+
+[ 2018-04-03T17:21:55+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:1.5675s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004630s ]
+
+[ 2018-04-03T17:21:55+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:1.5657s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T17:21:55+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0275s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2018-04-03T17:21:55+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0291s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T17:25:16+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.6934s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2018-04-03T17:25:16+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.7579s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0059s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0037s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2018-04-03T17:25:18+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0336s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002437s ]
+
+[ 2018-04-03T17:25:18+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0321s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0033s ]
+
+[ 2018-04-03T17:26:17+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+NOTIC: [8] Undefined variable: list E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\BoardController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2018-04-03T17:29:21+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.9354s ]
+NOTIC: [8] Use of undefined constant person_id - assumed 'person_id' E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\BoardController.class.php 第 8 行.
+SQL: SELECT * FROM person as a INNER JOIN person_msg as b ON b.id = person_id   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006962s ]
+
+[ 2018-04-03T17:30:08+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.5439s ]
+NOTIC: [8] Use of undefined constant person_id - assumed 'person_id' E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\BoardController.class.php 第 8 行.
+SQL: SELECT * FROM person as a INNER JOIN person_msg as b ON b.id = person_id   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2018-04-03T17:31:19+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0154s ]
+NOTIC: [8] Use of undefined constant person_id - assumed 'person_id' E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\BoardController.class.php 第 8 行.
+SQL: SELECT * FROM person as a INNER JOIN person_msg as b ON b.id = person_id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2018-04-03T17:32:55+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0666s ]
+NOTIC: [8] Use of undefined constant person_id - assumed 'person_id' E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\BoardController.class.php 第 8 行.
+SQL: SELECT * FROM person as a INNER JOIN person_msg as b ON b.person_id = person_id   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003778s ]
+
+[ 2018-04-03T17:42:10+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0172s ]
+ERR: 1054:Unknown column '$person_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM person_msg as a WHERE ( a.id=$person_id ) 
+ERR: 1054:Unknown column '$person_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM person_msg as a WHERE ( a.id=$person_id ) 
+
+[ 2018-04-03T17:44:25+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM person_msg as a WHERE `person_id` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2018-04-03T17:51:00+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002990s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0220s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2018-04-03T17:52:39+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0234s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2018-04-03T17:53:21+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0219s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T17:53:21+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002589s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0224s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2018-04-03T17:53:24+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0127s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2018-04-03T17:53:29+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0264s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T17:53:29+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002852s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0258s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2018-04-03T17:53:33+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0115s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2018-04-03T17:54:14+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0087s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2018-04-03T17:54:15+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0445s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2018-04-03T17:54:15+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0177s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T17:54:17+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002429s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0096s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2018-04-03T17:54:55+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0198s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2018-04-03T17:54:55+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002535s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0207s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2018-04-03T17:56:21+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0118s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '3'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2018-04-03T17:56:24+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0134s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2018-04-03T17:56:24+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0178s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T17:56:26+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0118s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2018-04-03T17:56:59+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0156s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002020s ]
+
+[ 2018-04-03T18:01:07+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0123s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001813s ]
+
+[ 2018-04-03T18:02:11+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0109s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2018-04-03T18:06:38+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0801s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2018-04-03T18:07:24+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004014s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0087s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2018-04-03T18:09:53+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005497s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0140s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002307s ]
+
+[ 2018-04-03T18:13:27+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004377s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0135s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002355s ]
+
+[ 2018-04-03T18:15:15+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0517s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2018-04-03T18:15:17+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003606s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0166s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2018-04-03T18:15:45+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004213s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0556s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2018-04-03T18:15:56+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0187s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002563s ]
+
+[ 2018-04-03T18:15:56+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0194s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0023s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0009s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2018-04-03T18:16:00+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0163s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2018-04-03T18:28:49+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0167s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003312s ]
+
+[ 2018-04-03T18:29:09+08:00 ] ::1 /myCode/poneBack/Api/board/msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0129s ]
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `person_msg` (`id`,`user_id`,`time`) VALUES ('1','58','2018-04-03 18:29:09')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `person_msg` (`id`,`user_id`,`time`) VALUES ('1','58','2018-04-03 18:29:09')
+
+[ 2018-04-03T18:31:27+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0425s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2018-04-03T18:31:45+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0128s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2018-04-03T18:31:51+08:00 ] ::1 /myCode/poneBack/Api/board/msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0085s ]
+SQL: INSERT INTO `person_msg` (`person_id`,`user_id`,`time`) VALUES ('1','58','2018-04-03 18:31:50') [ RunTime:0.2653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005145s ]
+
+[ 2018-04-03T18:32:21+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0195s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2018-04-03T18:33:38+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0438s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003164s ]
+
+[ 2018-04-03T18:33:41+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004952s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0118s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2018-04-03T18:33:47+08:00 ] ::1 /myCode/poneBack/Api/board/msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0087s ]
+SQL: INSERT INTO `person_msg` (`person_id`,`user_id`,`time`) VALUES ('1','58','2018-04-03 18:33:46') [ RunTime:0.1929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004298s ]
+
+[ 2018-04-03T18:34:35+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0120s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2018-04-03T18:34:45+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0443s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2018-04-03T18:34:49+08:00 ] ::1 /myCode/poneBack/Api/board/msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002506s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0164s ]
+SQL: INSERT INTO `person_msg` (`person_id`,`user_id`,`content`,`time`) VALUES ('1','58','22222','2018-04-03 18:34:49') [ RunTime:0.0732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003333s ]
+
+[ 2018-04-03T18:34:52+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0209s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2018-04-03T18:35:42+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0146s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2018-04-03T18:35:42+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0095s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T18:35:52+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0170s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2018-04-03T18:35:58+08:00 ] ::1 /myCode/poneBack/Api/board/msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003593s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0129s ]
+SQL: INSERT INTO `person_msg` (`person_id`,`user_id`,`content`,`time`) VALUES ('2','58','66666','2018-04-03 18:35:57') [ RunTime:0.0787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002826s ]
+
+[ 2018-04-03T18:36:03+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0583s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '2'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2018-04-03T18:40:11+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003137s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0479s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2018-04-03T18:40:39+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0244s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2018-04-03T18:40:39+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0216s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T18:40:40+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0109s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2018-04-03T18:42:11+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000369s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0229s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2018-04-03T18:42:11+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0245s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T18:42:28+08:00 ] ::1 /myCode/poneBack/api/person/like
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `user_person` [ RunTime:0.0099s ]
+SQL: SELECT `zan_status` FROM `user_person` WHERE `user_id` = 58 AND `person_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2018-04-03T18:42:31+08:00 ] ::1 /myCode/poneBack/api/person/like
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `user_person` [ RunTime:0.0118s ]
+SQL: SELECT `zan_status` FROM `user_person` WHERE `user_id` = 58 AND `person_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2018-04-03T18:42:34+08:00 ] ::1 /myCode/poneBack/api/person/like
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `user_person` [ RunTime:0.0123s ]
+SQL: SELECT `zan_status` FROM `user_person` WHERE `user_id` = 58 AND `person_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2018-04-03T18:42:37+08:00 ] ::1 /myCode/poneBack/api/person/like
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `user_person` [ RunTime:0.0106s ]
+SQL: SELECT `zan_status` FROM `user_person` WHERE `user_id` = 58 AND `person_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2018-04-03T18:46:07+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0444s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T18:46:07+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0437s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T18:47:04+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0011s ]
+
+[ 2018-04-03T18:47:05+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0555s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 59 and b.person_id = a.id   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003228s ]
+
+[ 2018-04-03T18:47:05+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0570s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-04-03T18:49:55+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0004s ]
+
+[ 2018-04-03T18:49:55+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0160s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 59 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2018-04-03T18:49:55+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0152s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0016s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-04-03T19:00:45+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0500s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:00:45+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0509s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:01:29+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0124s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:01:29+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0094s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-03T19:04:36+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0004s ]
+
+[ 2018-04-03T19:05:47+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:15:34+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.2975s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T19:15:34+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003864s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.2861s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:16:02+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0195s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0022s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0015s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T19:16:02+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004773s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0199s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:16:41+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `user` WHERE `name` = '' AND `password` = ''  [ RunTime:0.0004s ]
+
+[ 2018-04-03T19:16:47+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0526s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:16:47+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0524s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T19:17:30+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0006s ]
+
+[ 2018-04-03T19:17:32+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0471s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T19:17:32+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0475s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:18:53+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1892s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0009s ]
+
+[ 2018-04-03T19:19:42+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0109s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:19:42+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0103s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 59 and b.person_id = a.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2018-04-03T19:19:47+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:19:47+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0490s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 59 and b.person_id = a.id   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2018-04-03T19:19:47+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0495s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:20:09+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0257s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:20:09+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0240s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-04-03T19:20:14+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0004s ]
+
+[ 2018-04-03T19:20:14+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0109s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2018-04-03T19:20:14+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003796s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0131s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:20:51+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0168s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:20:51+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0170s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:20:56+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:20:56+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0096s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:20:56+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0081s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2018-04-03T19:20:58+08:00 ] ::1 /myCode/poneBack/api/board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+SQL: SHOW COLUMNS FROM `person_msg` [ RunTime:0.0114s ]
+SQL: SELECT * FROM person_msg as a INNER JOIN user as b ON b.id = a.user_id  WHERE `person_id` = '1'  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2018-04-03T19:21:00+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0181s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:21:00+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0158s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2018-04-03T19:21:05+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0081s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2018-04-03T19:21:05+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0125s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:21:54+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:21:54+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0452s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:21:54+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0470s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:22:39+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0235s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:22:39+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0235s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:22:40+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0222s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2018-04-03T19:22:40+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0230s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:24:30+08:00 ] ::1 /myCode/poneBack/api/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123' AND `password` = '123'  [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:24:30+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0098s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and b.person_id = a.id' at line 1
+ [ SQL语句 ] : SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id =  and b.person_id = a.id  
+
+[ 2018-04-03T19:24:30+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0200s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:26:21+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0537s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T19:26:21+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0553s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002751s ]
+
+[ 2018-04-03T19:26:24+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.1474s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 59 and b.person_id = a.id   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2018-04-03T19:26:24+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.1386s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:26:26+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0110s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 59 and b.person_id = a.id   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003707s ]
+
+[ 2018-04-03T19:26:27+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0223s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:26:44+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0147s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 59 and b.person_id = a.id   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2018-04-03T19:26:44+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002791s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0120s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-03T19:27:49+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0209s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2018-04-03T19:27:49+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0204s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-03T19:32:52+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0203s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 58 and b.person_id = a.id   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002207s ]
+
+[ 2018-04-03T19:32:52+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0169s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0296s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-04-03T19:33:22+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0180s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-03T19:33:23+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0184s ]
+SQL: SELECT * FROM person as a INNER JOIN user_person as b ON b.user_id = 59 and b.person_id = a.id   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+

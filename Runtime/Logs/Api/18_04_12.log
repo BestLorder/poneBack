@@ -1,0 +1,283 @@
+[ 2018-04-12T18:26:24+08:00 ] ::1 /myCode/poneBack/api/PersonType/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.048495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048543s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0552s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 )  [ RunTime:0.2048s ]
+SQL: SELECT * FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=1 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `type` FROM person as a INNER JOIN person_type as b ON b.id = a.type_id  WHERE ( type_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-12T18:26:24+08:00 ] ::1 /myCode/poneBack/api/person/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.048545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048600s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0537s ]
+SQL: SELECT a.*,b.name as user_name,b.head as user_head FROM person as a INNER JOIN user as b ON b.id = a.user_id   [ RunTime:0.2061s ]
+SQL: SHOW COLUMNS FROM `user_person` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `user_person` WHERE `person_id` = 1 AND `user_id` = 60  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_person` WHERE `person_id` = 2 AND `user_id` = 60  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_person` WHERE `person_id` = 3 AND `user_id` = 60  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2018-04-12T18:47:15+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+
+[ 2018-04-12T18:47:38+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+
+[ 2018-04-12T18:52:45+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Undefined index: head E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 10 行.
+NOTIC: [8] Undefined index: head E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 11 行.
+
+[ 2018-04-12T18:56:18+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] Undefined index: head E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 10 行.
+NOTIC: [8] Undefined index: head E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 11 行.
+NOTIC: [8] Undefined index: head E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 13 行.
+
+[ 2018-04-12T18:58:01+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Undefined index: file E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 9 行.
+
+[ 2018-04-12T18:59:51+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+NOTIC: [8] Undefined index: file E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 9 行.
+
+[ 2018-04-12T19:01:28+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+
+[ 2018-04-12T19:01:47+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+
+[ 2018-04-12T19:02:05+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+
+[ 2018-04-12T19:03:12+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+
+[ 2018-04-12T19:10:58+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2018-04-12T19:13:52+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103459s ]
+NOTIC: [2] mkdir(): No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 18 行.
+NOTIC: [2] file_put_contents(upload/active/img/20180412/1523531632.jpeg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 21 行.
+
+[ 2018-04-12T19:16:25+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [2] mkdir(): No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 18 行.
+NOTIC: [2] file_put_contents(upload/active/img/20180412/1523531785.jpeg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 21 行.
+
+[ 2018-04-12T19:18:58+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [2] file_put_contents(./upload/test/5acf40a2eb1bc.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2018-04-12T19:19:45+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [2] file_put_contents(./upload/test/5acf40d18da94.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 22 行.
+
+[ 2018-04-12T19:20:03+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2] file_put_contents(./upload/test/5acf40e3a3da1.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 22 行.
+
+[ 2018-04-12T19:28:35+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [2] file_put_contents(./upload/test/5acf42e306831.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 22 行.
+
+[ 2018-04-12T19:29:24+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [2] file_put_contents(./upload/test/5acf43142488c.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 23 行.
+
+[ 2018-04-12T19:30:49+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [2] file_put_contents(/data/upload/hp/5acf4369e2bfb.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 23 行.
+
+[ 2018-04-12T19:31:07+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [2] file_put_contents(/data/upload/hp/5acf437bbfa09.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 23 行.
+
+[ 2018-04-12T19:34:19+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Array to string conversion E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 14 行.
+NOTIC: [2] file_put_contents(/data/upload/hp/5acf443b2fd51.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 23 行.
+
+[ 2018-04-12T19:34:43+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+
+[ 2018-04-12T19:35:45+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [2] file_put_contents(/data/upload/hp/5acf44919f8b4.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 23 行.
+
+[ 2018-04-12T19:36:40+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [2] file_put_contents(/data/upload/hp/5acf44c8d6c30.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 24 行.
+
+[ 2018-04-12T19:39:12+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+NOTIC: [2] file_put_contents(/data/upload/hp/5acf4560aa87b.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 25 行.
+
+[ 2018-04-12T19:39:59+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [2] file_put_contents(/data/upload/hp/5acf458fcfa9d.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 26 行.
+
+[ 2018-04-12T19:47:32+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [2] file_put_contents(/data/upload/hp/5acf4754a8601.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 27 行.
+
+[ 2018-04-12T19:49:04+08:00 ] ::1 /myCode/poneBack/api/AddPerson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2] file_put_contents(/data/upload/hp/5acf47b090ffc.jpg): failed to open stream: No such file or directory E:\xampp\htdocs\myCode\poneBack\Application\Api\Controller\AddPersonController.class.php 第 25 行.
+

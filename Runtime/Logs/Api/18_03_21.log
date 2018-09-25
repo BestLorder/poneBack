@@ -1,0 +1,297 @@
+[ 2018-03-21T12:23:31+08:00 ] ::1 /myCode/poneBack3/api/homePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `hp_lbt`  [ RunTime:0.0004s ]
+
+[ 2018-03-21T12:26:01+08:00 ] ::1 /myCode/poneBack3/api/homePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `hp_lbt`  [ RunTime:0.0003s ]
+
+[ 2018-03-21T12:27:19+08:00 ] ::1 /myCode/poneBack3/api/homePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.1213s ]
+SQL: SELECT * FROM `hp_lbt`  [ RunTime:0.0010s ]
+
+[ 2018-03-21T12:27:24+08:00 ] ::1 /myCode/poneBack3/api/homePage/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE `name` LIKE '%1%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `person` WHERE `name` LIKE '%1%'  [ RunTime:0.0002s ]
+
+[ 2018-03-21T13:44:56+08:00 ] ::1 /myCode/poneBack3/api/homePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `hp_lbt`  [ RunTime:0.0003s ]
+
+[ 2018-03-21T13:44:58+08:00 ] ::1 /myCode/poneBack3/api/homePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hp_lbt`  [ RunTime:0.0004s ]
+
+[ 2018-03-21T14:04:52+08:00 ] ::1 /myCode/poneBack3/api/homePage/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE `name` LIKE '%1%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `person` WHERE `name` LIKE '%1%'  [ RunTime:0.0003s ]
+
+[ 2018-03-21T14:54:39+08:00 ] ::1 /myCode/poneBack3/api/homePage/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `person` WHERE `name` LIKE '%1%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `person` WHERE `name` LIKE '%1%'  [ RunTime:0.0002s ]
+
+[ 2018-03-21T17:27:46+08:00 ] ::1 /myCode/poneBack3/api/homppage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+ERR: 无法加载控制器:Homppage
+
+[ 2018-03-21T17:28:07+08:00 ] ::1 /myCode/poneBack3/api/homppage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+ERR: 无法加载控制器:Homppage
+
+[ 2018-03-21T17:28:10+08:00 ] ::1 /myCode/poneBack3/api/homppage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+ERR: 无法加载控制器:Homppage
+
+[ 2018-03-21T17:28:14+08:00 ] ::1 /myCode/poneBack3/api/homepage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003231s ]
+ERR: 无法加载控制器:Homepage
+
+[ 2018-03-21T17:28:16+08:00 ] ::1 /myCode/poneBack3/api/homepage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+ERR: 无法加载控制器:Homepage
+
+[ 2018-03-21T17:28:35+08:00 ] ::1 /myCode/poneBack3/api/HomePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `hp_lbt`  [ RunTime:0.0007s ]
+
+[ 2018-03-21T17:28:44+08:00 ] ::1 /myCode/poneBack3/api/homepage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+ERR: 无法加载控制器:Homepage
+
+[ 2018-03-21T17:28:54+08:00 ] ::1 /myCode/poneBack3/api/homePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.0626s ]
+SQL: SELECT * FROM `hp_lbt`  [ RunTime:0.0003s ]
+
+[ 2018-03-21T17:29:02+08:00 ] ::1 /myCode/poneBack3/api/homePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `hp_lbt`  [ RunTime:0.0003s ]
+
+[ 2018-03-21T17:34:26+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+SQL: INSERT INTO `user` (`name`,`password`,`create_time`) VALUES ('Lorder','Lorder','2147483647') [ RunTime:0.0564s ]
+
+[ 2018-03-21T17:35:06+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0115s ]
+SQL: INSERT INTO `user` (`name`,`password`,`create_time`) VALUES ('Lorder','Lorder','2147483647') [ RunTime:0.1617s ]
+
+[ 2018-03-21T17:36:28+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004461s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0209s ]
+SQL: INSERT INTO `user` (`name`,`password`,`create_time`) VALUES ('Lorder','Lorder','2147483647') [ RunTime:0.0900s ]
+
+[ 2018-03-21T17:37:39+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0132s ]
+SQL: INSERT INTO `user` (`name`,`password`,`create_time`) VALUES ('Lorder','Lorder','2018') [ RunTime:0.0232s ]
+
+[ 2018-03-21T17:38:13+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: INSERT INTO `user` (`name`,`password`,`create_time`) VALUES ('Lorder','Lorder','2018-03-21 17:38:13') [ RunTime:0.0219s ]
+
+[ 2018-03-21T17:41:56+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0095s ]
+SQL: INSERT INTO `user` (`name`,`password`,`create_time`) VALUES ('Lorder','Lorder','2018-03-21 17:41:56') [ RunTime:0.0193s ]
+
+[ 2018-03-21T17:49:59+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0116s ]
+
+[ 2018-03-21T17:50:31+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `user` WHERE ( 123 )  [ RunTime:0.1027s ]
+
+[ 2018-03-21T17:52:04+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123'  [ RunTime:0.0003s ]
+SQL: INSERT INTO `user` (`name`,`password`,`create_time`) VALUES ('123','123','2018-03-21 17:52:04') [ RunTime:0.0185s ]
+
+[ 2018-03-21T17:52:15+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `user` WHERE `name` = '123'  [ RunTime:0.0003s ]
+
+[ 2018-03-21T17:57:49+08:00 ] ::1 /myCode/poneBack3/Api/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `user` WHERE ( name=123 )  [ RunTime:0.0005s ]
+
+[ 2018-03-21T18:03:16+08:00 ] ::1 /myCode/poneBack3/api/homePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.1162s ]
+SQL: SELECT * FROM `hp_lbt` LIMIT 2   [ RunTime:0.0008s ]
+
+[ 2018-03-21T18:05:49+08:00 ] ::1 /myCode/poneBack3/api/homePage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `hp_lbt` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `hp_lbt` LIMIT 2   [ RunTime:0.0004s ]
+

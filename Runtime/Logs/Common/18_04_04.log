@@ -1,0 +1,48 @@
+[ 2018-04-04T09:57:19+08:00 ] ::1 /myCode/poneBack/data/upload/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+ERR: 无法加载模块:Data
+
+[ 2018-04-04T09:57:53+08:00 ] ::1 /myCode/poneBack/data/upload/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载模块:Data
+
+[ 2018-04-04T10:13:03+08:00 ] ::1 /myCode/poneBack/data/upload/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+ERR: 无法加载模块:Data
+
+[ 2018-04-04T10:34:19+08:00 ] ::1 /myCode/poneBack/data/upload/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+ERR: 无法加载模块:Data
+
+[ 2018-04-04T10:36:39+08:00 ] ::1 /myCode/poneBack/data/upload/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载模块:Data
+
+[ 2018-04-04T10:37:14+08:00 ] ::1 /myCode/poneBack/data/upload/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+ERR: 无法加载模块:Data
+
+[ 2018-04-04T10:37:50+08:00 ] ::1 /myCode/poneBack/data/upload/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Data
+
+[ 2018-04-04T14:33:52+08:00 ] ::1 /myCode/poneBack/data/upload/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Data
+
